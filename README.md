@@ -1,7 +1,7 @@
 # rabbitmq-server
 rabbitmq-server configuration files
 
-How To Backup and Restore RabbitMQ Configurations
+## How To Backup and Restore RabbitMQ Configurations
 
 Please note this backup doesn’t include Messages since they are stored in a separate message store. It will only backup RabbitMQ users, vhosts, queues, exchanges, and bindings. The backup file is a JSON representation of RabbitMQ metadata. We will do a backup using rabbitmqadmincommand line tool.
 
@@ -36,8 +36,7 @@ Exported definitions for localhost to "rabbitmq-backup-config.json"
 ```
 The export will be written to filerabbitmq-backup-config.json
 
-
-How to Restore RabbitMQ Configurations backup
+## How to Restore RabbitMQ Configurations backup
 
 If you ever want to restore your RabbitMQ configurations from a backup, use the command:
 ```bash
